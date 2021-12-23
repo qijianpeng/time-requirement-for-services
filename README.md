@@ -6,7 +6,7 @@ improve it.
 
 | Application/Scenario |  Delays |  Bandwidth | Src  |
 |           ---        |    ---  |      ---   | ---  | 
-| AR/VR                |  10 ms  |    15Mbps  |  [ppt](http://www.ecconsortium.net/Uploads/file/20200506/20200506131731_63298.pdf)
+| Extreme VR           |  10 ms  |    1 Gbps (smooth play) / 2.35 Gbps (interactive) |  [DOI: 10.1145/3097895.3097901](https://dl.acm.org/doi/10.1145/3097895.3097901)
 | Autonomous           |   1 ms  |    50Mbps+ |  [ppt](http://www.ecconsortium.net/Uploads/file/20200506/20200506131731_63298.pdf)
 | Remote surgery       | 1~10 ms |    300Mbps |  [ppt](http://www.ecconsortium.net/Uploads/file/20200506/20200506131731_63298.pdf)
 | Robot collaboration  |   1 ms  |   1~10Mbps |  [ppt](http://www.ecconsortium.net/Uploads/file/20200506/20200506131731_63298.pdf)
