@@ -7,11 +7,11 @@ improve it.
 | Application/Scenario |  Delays |  Bandwidth | Src  |
 |           ---        |    ---  |      ---   | ---  | 
 | Extreme VR           |  10 ms  |    1 Gbps (smooth play) / 2.35 Gbps (interactive) |  [DOI: 10.1145/3097895.3097901](https://dl.acm.org/doi/10.1145/3097895.3097901)
-| Autonomous           |   1 ms  |    50Mbps+ |  [ppt](http://www.ecconsortium.net/Uploads/file/20200506/20200506131731_63298.pdf)
+| Autonomous           |   10 ms  |    50Mbps+ |  [DOI: 10.1145/3487552.3487815](https://doi.org/10.1145/3487552.3487815)
 | Remote surgery       | 1~10 ms |    300Mbps |  [ppt](http://www.ecconsortium.net/Uploads/file/20200506/20200506131731_63298.pdf)
 | Robot collaboration  |   1 ms  |   1~10Mbps |  [ppt](http://www.ecconsortium.net/Uploads/file/20200506/20200506131731_63298.pdf)
 | Smart venue          |  10 ms  |    1Gbps   |  [ppt](http://www.ecconsortium.net/Uploads/file/20200506/20200506131731_63298.pdf)
-| XR (AR + VR )        |  20 ms  |    1Gbps   |  [Use Cases for In-Network Computing](https://datatracker.ietf.org/doc/html/draft-irtf-coinrg-use-cases-01#page-12)
+| XR (AR + VR )        |  5~20 ms  |    1Gbps   |  [DOI: 10.1145/3487552.3487815](https://doi.org/10.1145/3487552.3487815)
 
 
 Contact: jianpengqi@126.com
