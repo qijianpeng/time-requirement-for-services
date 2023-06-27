@@ -1,11 +1,11 @@
 # Time Requirement for Services (Application/Software end-to-end latency)
-I've found its a challengeable game for recording the numerous services with
+I've found it a challenging game for recording the numerous services with
 their time constraint. However, recording these things may be very useful for
-the design of the algorithms and systems. So, if you are interesting in this
+the design of the algorithms and systems. So, if you are interested in this
 repo, we can together improve it.
 
-These delay bounds can be used in, but not limited:
-- TSN (Time-Sensitive Network), which requires the end-to-end latency no more
+These delay bounds can be used in, but not limited to:
+- TSN (Time-Sensitive Network), which requires end-to-end latency no more
   than a given threshold.
 
 
@@ -26,5 +26,15 @@ These delay bounds can be used in, but not limited:
 | Autonomous           |   10 ms  |    50Mbps+ |  [DOI: 10.1145/3487552.3487815](https://doi.org/10.1145/3487552.3487815)
 | Fuel theft prevention TS-IoT application        |  5~10s  |    -   |  [DOI: 10.1145/3510411](https://doi.org/10.1145/3510411)
 
+
+# Latencies that infrastructure introduced 
+| Infrastructure       |  RTT |     Range  | Data rate  |
+|           ---        |    ---  |      ---   | ---        | 
+|    Cellular (5G)     |    ~1 ms  |      ~100 km   |   ~20 Gbps     | 
+|    UAVs/HAPS         |    ~3 ms  |      5-200 km   |    ~10 Gbps     | 
+|    LEOs              |    30-50 ms  |     100-500 km   |    ~3.75 Gbps     | 
+|    MEOs              |    135-250 ms  |      100-500 km   |    ~1.2 Gbps     | 
+|    GEOs              |    560-800 ms |     200- 1,000 km  |    ~150 Mbps     | 
+Refs: https://doi.org/10.1145/3606018
 
 Contact: jianpengqi@126.com
