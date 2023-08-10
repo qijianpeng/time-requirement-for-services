@@ -26,7 +26,6 @@ These delay bounds can be used in, but not limited to:
 | Autonomous           |   10 ms  |    50Mbps+ |  [DOI: 10.1145/3487552.3487815](https://doi.org/10.1145/3487552.3487815)
 | Fuel theft prevention TS-IoT application        |  5~10s  |    -   |  [DOI: 10.1145/3510411](https://doi.org/10.1145/3510411)
 
-
 # Latencies that infrastructure introduced 
 | Infrastructure       |  RTT |     Range  | Data rate  |
 |           ---        |    ---  |      ---   | ---        | 
@@ -36,5 +35,8 @@ These delay bounds can be used in, but not limited to:
 |    MEOs              |    135-250 ms  |      100-500 km   |    ~1.2 Gbps     | 
 |    GEOs              |    560-800 ms |     200- 1,000 km  |    ~150 Mbps     | 
 Refs: https://doi.org/10.1145/3606018
+
+# Other refs
+- [Latency Numbers Every Programmer Should Know](https://colin-scott.github.io/personal_website/research/interactive_latency.html)
 
 Contact: jianpengqi@126.com
