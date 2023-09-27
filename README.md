@@ -26,7 +26,7 @@ These delay bounds can be used in, but not limited to:
 | Autonomous           |   10 ms  |    50Mbps+ |  [DOI: 10.1145/3487552.3487815](https://doi.org/10.1145/3487552.3487815)
 | Fuel theft prevention TS-IoT application        |  5~10s  |    -   |  [DOI: 10.1145/3510411](https://doi.org/10.1145/3510411)
 
-# Latencies that infrastructure introduced 
+## Latencies that infrastructure introduced 
 | Infrastructure       |  RTT |     Range  | Data rate  |
 |           ---        |    ---  |      ---   | ---        | 
 |    Cellular (5G)     |    ~1 ms  |      ~100 km   |   ~20 Gbps     | 
@@ -35,6 +35,18 @@ These delay bounds can be used in, but not limited to:
 |    MEOs              |    135-250 ms  |      100-500 km   |    ~1.2 Gbps     | 
 |    GEOs              |    560-800 ms |     200- 1,000 km  |    ~150 Mbps     | 
 Refs: https://doi.org/10.1145/3606018
+
+## Industrial Systems End-to-End Latency
+| Service | End-to-End Latency | Src |
+| --- | --- | --- |
+| Factory automation (motion control) | 1 ms | [DOI: 10.1145/3617591](https://doi.org/10.1145/3617591) |
+| Factory automation  | 10 ms | [DOI: 10.1145/3617591](https://doi.org/10.1145/3617591) |
+| Process automation (remote control) | 50 ms | [DOI: 10.1145/3617591](https://doi.org/10.1145/3617591) |
+| Process automation (monitoring) | 50 ms | [DOI: 10.1145/3617591](https://doi.org/10.1145/3617591) |
+| Electricity distribution (medium voltage) | 25 ms | [DOI: 10.1145/3617591](https://doi.org/10.1145/3617591) |
+| Electricity distribution (high voltage) | 5 ms | [DOI: 10.1145/3617591](https://doi.org/10.1145/3617591) |
+| Intelligent transport systems (infrastructure backhaul) | 10 ms | [DOI: 10.1145/3617591](https://doi.org/10.1145/3617591) |
+| Remote Control | 5 ms | [DOI: 10.1145/3617591](https://doi.org/10.1145/3617591) |
 
 # Other refs
 - [Latency Numbers Every Programmer Should Know](https://colin-scott.github.io/personal_website/research/interactive_latency.html)
