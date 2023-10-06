@@ -26,6 +26,19 @@ These delay bounds can be used in, but not limited to:
 | Autonomous           |   10 ms  |    50Mbps+ |  [DOI: 10.1145/3487552.3487815](https://doi.org/10.1145/3487552.3487815)
 | Fuel theft prevention TS-IoT application        |  5~10s  |    -   |  [DOI: 10.1145/3510411](https://doi.org/10.1145/3510411)
 
+## Latencies in Live Media Streaming
+| Categories | Latencies |  e.g. |
+|     ---    |      ---  |  ---  |
+| High Latency | 45 s + | Scenarios that scalability & robustness are concerned |
+| Typical Latency | 10 s ~ 45 s | HTTP adaptive streaming, fallback state |
+| Low Latency | 1 s ~ 10 s | Premium live sports, financial news and eSports, second-screen experiences |
+|  Ultra-Low Latency | < 1 s | Live commentary, betting, in-game wagering, online gambling and auctioning |
+| Near-Real-Time Latency | the order of tens of, up to 100, milliseconds | Videoconferencing, cloud gaming, remote control of hardware platforms like drones, vehicles or surgical robots and metaverse |
+
+Refs: https://arxiv.org/abs/2310.03256
+
+
+
 ## Latencies that infrastructure introduced 
 | Infrastructure       |  RTT |     Range  | Data rate  |
 |           ---        |    ---  |      ---   | ---        | 
