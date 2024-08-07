@@ -18,7 +18,8 @@ These delay bounds can be used in, but not limited to:
 | Smart venue (智慧场馆, in Chinese)          |  10 ms  |    1Gbps   |  [ppt, page 2](http://www.ecconsortium.net/Uploads/file/20200506/20200506131731_63298.pdf)
 | XR (AR + VR )        |  5~20 ms  |    1Gbps   |  [DOI: 10.1145/3487552.3487815](https://doi.org/10.1145/3487552.3487815)
 | Mobile health        | <= 400 ms | 10~50Mbps | [DOI: 10.1155/2010/628086](https://doi.org/10.1155/2010/628086), [arXiv: 2407.18921](https://arxiv.org/abs/2407.18921)
-
+| Humanoid robots      | 10-100 ms | 80 Mbps-12 Gbps | [arXiv: 2407.18921](https://arxiv.org/abs/2407.18921)
+| Virtual assistants   | 200 ms    | 144 Mbps        | [arXiv: 2407.18921](https://arxiv.org/abs/2407.18921)
 
 ## Vehicle related
 | Application/Scenario |  Delays |  Bandwidth | Src  |
